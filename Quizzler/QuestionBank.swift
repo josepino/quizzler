@@ -15,37 +15,77 @@ class QuestionBank {
     
     init() {
         
-        // Creating a quiz item and appending it to the list
-        let item = Question(text: "Valentine\'s day is banned in Saudi Arabia.", correctAnswer: true)
+        list.append(Question(text: "Aĝagua = Actualidad", correctAnswer: true))
         
-        // Add the Question to the list of questions
-        list.append(item)
+        list.append(Question(text: "Oñemoambue pyahúva = Cambios recientes", correctAnswer: true))
         
+        list.append(Question(text: "Kuatiarogue oñembosako’íva = Página aleatoria", correctAnswer: true))
         
-        // skipping one step and just creating the quiz item inside the append function
-        list.append(Question(text: "A slug\'s blood is green.", correctAnswer: true))
+        list.append(Question(text: "Heka = Buscar", correctAnswer: true))
         
-        list.append(Question(text: "Approximately one quarter of human bones are in the feet.", correctAnswer: true))
+        list.append(Question(text: "oñembojoajukuaáva ko’ápe = Lo que enlaza aquí", correctAnswer: true))
         
-        list.append(Question(text: "The total surface area of two human lungs is approximately 70 square metres.", correctAnswer: true))
+        list.append(Question(text: "Puruhára mba’emoĩmbyre = Contribuciones del usuario", correctAnswer: true))
         
-        list.append(Question(text: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", correctAnswer: true))
+        list.append(Question(text: "Ñemboguapypyre = Registros", correctAnswer: true))
         
-        list.append(Question(text: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", correctAnswer: false))
+        list.append(Question(text: "Tojeguerahauka ñe’ẽveve ko puruhárape = Enviar correo electrónico a este usuario", correctAnswer: true))
         
-        list.append(Question(text: "It is illegal to pee in the Ocean in Portugal.", correctAnswer: true))
+        list.append(Question(text: "Tojehupi jehai’aty = Subir archivo", correctAnswer: true))
         
-        list.append(Question(text: "You can lead a cow down stairs but not up stairs.", correctAnswer: false))
+        list.append(Question(text: "Perro = jagua", correctAnswer: true))
         
-        list.append(Question(text: "Google was originally called \"Backrub\".", correctAnswer: true))
+        list.append(Question(text: "Gato = mbarakaja", correctAnswer: true))
         
-        list.append(Question(text: "Buzz Aldrin\'s mother\'s maiden name was \"Moon\".", correctAnswer: true))
+        list.append(Question(text: "Tomar = ekambu", correctAnswer: true))
         
-        list.append(Question(text: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", correctAnswer: false))
+        list.append(Question(text: "Leche = kamby", correctAnswer: true))
         
-        list.append(Question(text: "No piece of square dry paper can be folded in half more than 7 times.", correctAnswer: false))
+        list.append(Question(text: "Azucar = asuka", correctAnswer: true))
         
-        list.append(Question(text: "Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.", correctAnswer: true))
+        list.append(Question(text: "Llamar = rehenoi", correctAnswer: true))
+        
+        list.append(Question(text: "No = nahaniri", correctAnswer: true))
+        
+        list.append(Question(text: "No me voy = ndahai", correctAnswer: true))
+        
+        list.append(Question(text: "Madre = sy", correctAnswer: true))
+        
+        list.append(Question(text: "Padre = tua", correctAnswer: true))
+        
+        list.append(Question(text: "Inteligente = Marangatu", correctAnswer: true))
+        
+        list.append(Question(text: "Ayuda = tekojoja", correctAnswer: true))
+        
+        list.append(Question(text: "Venir = eju", correctAnswer: true))
+        
+        list.append(Question(text: "Vamos = jaha", correctAnswer: true))
+        
+        list.append(Question(text: "Pelota = vakapipopo", correctAnswer: true))
+        
+        list.append(Question(text: "Nuestro Señor = ñandejara", correctAnswer: true))
+        
+        list.append(Question(text: "Casa = oga", correctAnswer: true))
+        
+        list.append(Question(text: "Profesor = mbo`ehara", correctAnswer: true))
+        
+        list.append(Question(text: "Colegio o escuela = mbo´ehao", correctAnswer: true))
+        
+        list.append(Question(text: "Loco = tavy", correctAnswer: true))
+        
+        list.append(Question(text: "Comida = tembiu", correctAnswer: true))
+        
+        list.append(Question(text: "Tomar = hoi’u", correctAnswer: true))
+        
+        list.append(Question(text: "Comer = je’u", correctAnswer: true))
+        
+        list.append(Question(text: "Quiero = aipota", correctAnswer: true))
+        
+        list.append(Question(text: "Cerrar = mboty", correctAnswer: true))
+        
+        list.append(Question(text: "Dormir = oke", correctAnswer: true))
+        
+        list.append(Question(text: "Despertar = epu’a", correctAnswer: true))
     }
     
     
